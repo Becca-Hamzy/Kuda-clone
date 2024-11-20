@@ -26,7 +26,9 @@ const Comp = styled.div`
     @media(max-width: 800px){
         height: 100px;
         font-size: 13px;
-        /* border:1px solid; */
+        width:100%;
+        margin:5px;
+        border:1px solid;
 
 
     }

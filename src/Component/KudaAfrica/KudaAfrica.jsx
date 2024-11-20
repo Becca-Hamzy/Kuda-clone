@@ -20,7 +20,7 @@ const KudaImg = styled.div`
 
    @media(max-width: 800px){
       img{
-          width: 400px;
+          width: 350px;
 
       }
 

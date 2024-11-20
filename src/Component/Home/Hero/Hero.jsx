@@ -149,7 +149,12 @@ padding-right: 110px;
     margin-right: 20px ;
    }
 
+   @media(max-width: 800px){
+    width: 280px;
+    /* border:1px solid; */
+    margin-left: -20px ;
 
+   }
 
 `
 

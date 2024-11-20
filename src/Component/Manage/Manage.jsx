@@ -19,19 +19,20 @@ export default Manage
 const Subs = styled.div`
  display:flex;
  /* border: 1px solid; */
- width: 350px;
- margin-left: 200px ;
+ width: 100%;
+ margin-left: -200px;
  gap: 70px;
  justify-content: center;
  align-items: center;
  margin-bottom:-10px;
+ 
 
 @media(max-width: 800px){
        margin-top: 800px ;
        display: flex;
        flex-direction: column;
-       width: 200px;
-       margin-left: 280px ;
+       width: 100%;
+       margin-left: 0px ;
        /* border: 1px solid; */
 
 
@@ -40,7 +41,9 @@ const Subs = styled.div`
 
        img{
 
-        width: 450px;
+        width: 400px;
+        margin-left: 190px ;
+
        }
  
 
@@ -68,8 +71,9 @@ const Text = styled.div`
     margin-left: 40px ;
 
     @media(max-width: 800px){
-        width: 300px;
-        margin-right: 450px ;
+        width: 100%;
+        text-align: center;
+        margin-left: -16px ;
 
 
 

@@ -79,9 +79,9 @@ import KudaArica from "../KudaAfrica/KudaAfrica.jsx"
         </Conts>
    
    
-        <Cont>
+        <Cont id="save">
           <Flex>
-              <Phone className = "kudaphone"  text = "Save money as you spend it, seriously." p = "You can’t avoid spending. That’s how you pay for your needs. But we can help you put money away every time you pay for something. Just set a percentage to save and watch your money grow." 
+              <Phone className = "kudaphone"   text = "Save money as you spend it, seriously." p = "You can’t avoid spending. That’s how you pay for your needs. But we can help you put money away every time you pay for something. Just set a percentage to save and watch your money grow." 
               img = {spendsave} alt = ""/>
               
          </Flex>
@@ -131,7 +131,7 @@ import KudaArica from "../KudaAfrica/KudaAfrica.jsx"
 
       </Box>
        
-
+       <>
       <KudaIcons>
       <Badge className = "badge1" img = {tc} alt = ""/>
       <Badge className = "badge2" img = {World} alt = ""/>
@@ -140,10 +140,10 @@ import KudaArica from "../KudaAfrica/KudaAfrica.jsx"
       <Badge className = "badge5" img = {fan} alt = ""/>
       <Badge className = "badge6" img = {euro} alt = ""/>
       </KudaIcons>
-
+      </>
 
       <Assurance className = "assur" text = "Our Partners"/>
-
+        <>
       <KudaIcons>
       <Badge className = "badge1" img = {vlar} alt = ""/>
       <Badge className = "badge2" img = {express} alt = ""/>
@@ -152,6 +152,7 @@ import KudaArica from "../KudaAfrica/KudaAfrica.jsx"
       <Badge className = "badge5" img = {visa} alt = ""/>
    
       </KudaIcons>
+      </>
 
       <Assurance className = "assur" text = "Choose the freedom you need."/>
 
@@ -222,6 +223,17 @@ const Cont = styled.div`
    width: 100%;
    /* background-color: blue; */
 
+
+   @media(max-width: 800px){
+
+    /* border: 1px solid blue; */
+    height: 400px;
+   width: 430px;
+   margin-top: 240px;
+
+    /* display: none; */
+
+   }
 
 `
 
@@ -303,6 +315,7 @@ const KudaIcons = styled.div`
     }
 
 `
+
   
 
    

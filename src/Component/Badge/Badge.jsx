@@ -20,6 +20,14 @@ export default Badge
 const BargeImg = styled.div`
        @media(max-width: 800px){
           width: 30px;
+          margin: 5px;
+       }
+
+       img{
+         width: 120px;
+         margin: 5px;
+
+
        }
 
 

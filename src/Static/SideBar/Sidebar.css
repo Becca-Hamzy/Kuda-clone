@@ -1,0 +1,5 @@
+.contain {
+      min-height: calc(100vh - 80px);
+      background-color: rgb(251, 246, 255);
+      color: white;
+}

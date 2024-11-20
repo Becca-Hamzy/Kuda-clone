@@ -25,7 +25,7 @@ const Container = styled.div`
 
 
     @media(max-width: 800px){
-       width: 400px;
+       width:350px;
 
     }
 

@@ -31,12 +31,13 @@ const Subs = styled.div`
        margin-top: 400px ;
        display: flex;
        flex-direction: column;
-       margin-right: auto;
        gap: 80px;
        align-items: center;
-       width: 100%;
-       padding-right: 3px;
+       width: 420px;
+       padding-right: 0px;
        /* border: 1px solid; */
+       /* margin-top: -100 px; */
+       /* margin-bottom:400px; */
 
 
 
@@ -45,6 +46,18 @@ const Subs = styled.div`
     }
     img{
         width: 400px;
+
+
+        @media(max-width: 800px){
+            width: 350px;
+            margin-left: 40px;
+                   /* border: 1px solid; */
+
+
+
+
+        }
+
     }
 
 `
@@ -84,7 +97,7 @@ const Text = styled.div`
     @media(max-width: 800px){
         font-size: 25px;
         text-align: center;
-        margin-left: 20px;
+        margin-left: 0px;
 
 
     }
@@ -97,11 +110,7 @@ const Text = styled.div`
     @media(max-width: 800px){
      text-align: center;
      font-size: 12px;
-     margin-right: 30px;
-
-
-
-
+     margin-right: 80px;
 
     }
    }
